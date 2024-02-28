@@ -1,2 +1,7 @@
-# Relation-between-two-numbers
-program which prints small/large/equal relation of given integer numbers
+a,b=map(int,input().split())
+if(a<b):
+  print("a < b")
+elif(a>b):
+  print("a > b")
+else:
+  print("a == b")
